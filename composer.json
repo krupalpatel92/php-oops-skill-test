@@ -1,0 +1,25 @@
+{
+  "name": "coalition/exam",
+  "description": "coalition technologies applicant exam",
+  "type": "project",
+  "require-dev": {
+    "php": "^8.3",
+    "phpunit/phpunit": "^9.5"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Coalition\\Exam\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Krupal Patel",
+      "email": "me@krupalpatel.com"
+    }
+  ],
+  "scripts": {
+    "unit-test": "phpunit --bootstrap vendor/autoload.php tests/"
+  },
+  "require": {}
+}
